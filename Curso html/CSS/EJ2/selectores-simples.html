@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple Selectors</title>
+    <style>
+      /* all h2 elements */
+      h2 {
+        color: red;
+        text-align: center;
+      }
+
+      /* all with class="highlight" */
+      .highlight {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+        background-color: #b8b2b2;
+        opacity: 1;
+      }
+
+      /* element with id="mainPoint" */
+      #mainPoint {
+        color: yellow;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: red;
+        opacity: 1;
+      }
+
+      /* all p AND h1 elements */
+      p,
+      h1 {
+        color: orangered;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Selectores Simples (h1)</h1>
+    <h2>Subtitulo 1 (h2)</h2>
+    <p class="highlight">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet
+      alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores
+      expedita ex nemo ea repellendus dolorem sed maxime quos?
+    </p>
+    <p class="highlight">
+      Paragraph with attribute class="highlight". Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit.
+    </p>
+    <h2>Subtitulo 2 (h2)</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo
+      ipsum dolores vel modi magnam veniam alias at nam. Voluptatem officiis
+      dolor dolorem aspernatur dolorum modi ipsa, nobis animi aut!
+    </p>
+    <div>
+      This is the main point of the entire article. So, attribute
+      <span id="mainPoint">id="mainPoint".</span>
+    </div>
+  </body>
+</html>

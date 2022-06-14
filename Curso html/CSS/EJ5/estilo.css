@@ -1,0 +1,22 @@
+div.dosem{
+    background-color: red;
+    font-size: 2em;
+}
+div.cuatroem{
+    background-color: blue;
+    font-size: 4em;
+}
+div.cuatroem>div{
+    background-color: yellow;
+    font-size: 0.5em;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    background-color: lightskyblue;
+}
