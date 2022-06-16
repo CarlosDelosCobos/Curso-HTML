@@ -7,11 +7,16 @@ div {
   box-sizing: border-box;
   padding: 10px;
 }
-div#p2>ol:nth-child(even){
-    background-color: gray;
+td{
+  font-weight: bold;
+  font-style: oblique;
+  color: blue;
 }
-div#p2>ol:nth-child(odd){
-    background-color: aquamarine;
+tr:nth-child(even){
+  background-color: aquamarine;
+}
+tr:nth-child(odd){
+  background-color: blueviolet;
 }
 #p1 {
   width: 30%;
