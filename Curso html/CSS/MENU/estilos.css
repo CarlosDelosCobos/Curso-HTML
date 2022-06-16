@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+div {
+  border: 0px solid black;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+}
+div#p2>ol:nth-child(even){
+    background-color: gray;
+}
+div#p2>ol:nth-child(odd){
+    background-color: aquamarine;
+}
+#p1 {
+  width: 30%;
+  height: 900px;
+  background-color: black;
+}
+#p2 {
+  width: 70%;
+  height: 900px;
+  background: url("imagen.jpg");
+}
+a:link,
+:visited {
+  background-color: red;
+  color: aqua;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+a:hover {
+  background-color: blueviolet;
+  color: black;
+}
+h1 {
+  font-style: oblique;
+  font: bold;
+  background-color: gold;
+  color: brown;
+  text-align: center;
+  margin: 0;
+}

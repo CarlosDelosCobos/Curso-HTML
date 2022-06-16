@@ -1,19 +1,17 @@
-*{
-    box-sizing: border-box;
+*{  /* Para cada elemento hace lo que esté aquí */
+    box-sizing: border-box; /* Ajusta el tamaño de la caja con el borde, esta propiedad no se hereda */
     margin: 0;
-    padding: 0;
 }
 body {
     background-color: gray;
 }
-#box {
+#box{
     background-color: blue;
-    padding: 10px;
-    border: 5px solid firebrick;
+    padding: 10px 30px 10px 20px; /* Sirve para ajustar la distancia del contenido al borde de arriba, der, abajo, izq */
     width: 300px;
     height: 50px;
-    margin-top: 50px;
     overflow: auto;
+    margin-top: 50px; /* Cuando son márgenes verticales no se suman, se toma el más grande */
 }
 #content {
     background-color: #90ee90;
