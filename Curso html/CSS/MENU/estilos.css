@@ -28,7 +28,15 @@ tr:nth-child(odd){
   height: 900px;
   background: url("imagen.jpg");
 }
-a:link,
+table{
+  margin:0 auto;
+  text-align: center;
+}
+img{
+  margin: 0 auto;
+  text-align: center;
+}
+#p1>p>a:link,
 :visited {
   background-color: red;
   color: aqua;
@@ -37,9 +45,26 @@ a:link,
   text-decoration: none;
   margin-bottom: 10px;
 }
-a:hover {
+#p1>p>a:hover {
   background-color: blueviolet;
   color: black;
+}
+.imagen{
+  width: 70%;
+  height: 900px;
+  background: url("imagen.jpg");
+}
+.imagen>p>a{
+  background-color: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.imagen>p>a>img{
+  margin: 0 auto;
+  text-align: center;
+}
+p>img{
+  text-align: center;
 }
 h1 {
   font-style: oblique;
@@ -48,4 +73,15 @@ h1 {
   color: brown;
   text-align: center;
   margin: 0;
+}
+footer{
+  background-color: chartreuse;
+}
+footer>address{
+  color: blue;
+  text-align: center;
+}
+footer>p{
+  color: red;
+  text-align: center;
 }
