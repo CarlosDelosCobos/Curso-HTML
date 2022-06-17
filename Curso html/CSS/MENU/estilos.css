@@ -32,10 +32,6 @@ table{
   margin:0 auto;
   text-align: center;
 }
-img{
-  margin: 0 auto;
-  text-align: center;
-}
 #p1>p>a:link,
 :visited {
   background-color: red;
@@ -53,18 +49,6 @@ img{
   width: 70%;
   height: 900px;
   background: url("imagen.jpg");
-}
-.imagen>p>a{
-  background-color: none;
-  margin: 0 auto;
-  text-align: center;
-}
-.imagen>p>a>img{
-  margin: 0 auto;
-  text-align: center;
-}
-p>img{
-  text-align: center;
 }
 h1 {
   font-style: oblique;
